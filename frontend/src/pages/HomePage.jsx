@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Poster from "../components/Poster";
 
-function Home() {
+const HomePage = () => {
   return (
     <>
       <Navbar />
@@ -16,4 +16,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
