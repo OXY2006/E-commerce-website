@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -13,14 +12,10 @@ const Navbar = () => {
         <button>Search</button>
       </div>
 
-      <div className="Admin">
+      <div className="nav-right">
         <button>Admin</button>
-      </div>
-
-      <div className="cart">
         <button>Cart</button>
       </div>
-   
     </nav>
   );
 };
