@@ -1,0 +1,10 @@
+.hero {
+  height: 250px;
+  background: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}

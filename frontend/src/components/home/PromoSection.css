@@ -1,0 +1,11 @@
+.promo-container {
+  display: flex;
+  gap: 20px;
+}
+
+.promo-box {
+  flex: 1;
+  background: #ffe0c7;
+  padding: 30px;
+  border-radius: 8px;
+}

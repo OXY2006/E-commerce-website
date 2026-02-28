@@ -1,34 +1,17 @@
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
-import Poster from "../components/Poster";
-import LeftPromo from "../components/LeftPromo";
-import RightPromo from "../components/RightPromo";
-import Footer from "../components/Footer";
-import "./HomePage.css";
+import Sidebar from "../components/layout/Sidebar";
+import Hero from "../components/home/Hero";
+import PromoSection from "../components/home/PromoSection";
 
-const HomePage = () => {
+function HomePage() {
   return (
-    <div className="layout">
-      <Navbar />
-
-      <div className="main">
-        <Sidebar />
-
-        <div className="content">
-          <div className="poster">
-            <Poster />
-          </div>
-
-          <div className="promos">
-            <LeftPromo />
-            <RightPromo />
-          </div>
-
-          <Footer />
-        </div>
+    <div style={{ display: "flex" }}>
+      <Sidebar />
+      <div style={{ flex: 1, padding: "20px" }}>
+        <Hero />
+        <PromoSection />
       </div>
     </div>
   );
-};
+}
 
 export default HomePage;
