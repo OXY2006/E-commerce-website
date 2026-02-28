@@ -1,12 +1,14 @@
+import "./HomePage.css";
 import Sidebar from "../components/layout/Sidebar";
 import Hero from "../components/home/Hero";
 import PromoSection from "../components/home/PromoSection";
 
 function HomePage() {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="home-container">
       <Sidebar />
-      <div style={{ flex: 1, padding: "20px" }}>
+
+      <div className="home-content">
         <Hero />
         <PromoSection />
       </div>
