@@ -1,11 +1,51 @@
 .promo-container {
   display: flex;
-  gap: 20px;
+  gap: 30px;
+  margin-top: 40px;
 }
 
-.promo-box {
+.promo-card {
+  position: relative;
   flex: 1;
-  background: #ffe0c7;
-  padding: 30px;
-  border-radius: 8px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.promo-card:hover {
+  transform: translateY(-6px);
+}
+
+.promo-card img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+.promo-overlay {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.promo-btn {
+  background: #0ea5e9;   /* Blue accent */
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.promo-btn:hover {
+  background: #0284c7;
+}
+
+.promo-btn.orange {
+  background: #f97316;   /* Orange accent */
+}
+
+.promo-btn.orange:hover {
+  background: #ea580c;
 }

@@ -30,7 +30,7 @@ function Footer() {
         <div className="footer-section">
           <h4>Contact</h4>
           <p>Email: support@picksy.com</p>
-          <p>Phone: +91 9876543210</p>
+          <p>Phone: +91 1234567891</p>
         </div>
 
       </div>

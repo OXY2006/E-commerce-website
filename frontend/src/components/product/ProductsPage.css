@@ -1,0 +1,16 @@
+.products-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.products-container h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}

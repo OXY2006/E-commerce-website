@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
-import ProductCard from "../components/home/ProductCard";
+import ProductCard from "../components/product/ProductCard";
+import "./CategoryPage.css";
 
 function CategoryPage() {
   const { name } = useParams();
@@ -11,13 +12,14 @@ function CategoryPage() {
   ];
 
   return (
-    <div style={{ padding: "40px" }}>
+    <div className="category-page">
       <h2>{name.toUpperCase()} Category</h2>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "20px", marginTop: "20px" }}>
+      <div className="products-grid">
         {dummyProducts.map((item) => (
           <ProductCard
             key={item.id}
+            id={item.id}
             title={item.title}
             price={item.price}
           />

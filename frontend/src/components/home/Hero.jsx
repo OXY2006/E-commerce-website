@@ -1,10 +1,10 @@
 import "./Hero.css";
+import heroImage from "../../assets/hero-banner.png";
 
 function Hero() {
   return (
     <div className="hero">
-      <h1>Stay Home & Get Delivered</h1>
-      <p>Temporary Banner Area</p>
+      <img src={heroImage} alt="Fresh Groceries Banner" />
     </div>
   );
 }
