@@ -7,7 +7,7 @@ function PromoSection() {
   return (
     <div className="promo-container">
 
-      {/* LEFT - Fish & Meat */}
+      {}
       <div className="promo-card">
         <img src={promoFish} alt="Fresh Fish & Meat" />
 
@@ -18,7 +18,7 @@ function PromoSection() {
         </div>
       </div>
 
-      {/* RIGHT - Fruits & Juices */}
+      {}
       <div className="promo-card">
         <img src={promoFruits} alt="Fresh Fruits & Juices" />
 

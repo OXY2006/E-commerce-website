@@ -1,18 +1,31 @@
 import { Link } from "react-router-dom";
+import { FaCarrot, FaAppleAlt, FaFish, FaIceCream, FaBreadSlice } from "react-icons/fa";
 import "./Sidebar.css";
 
 function Sidebar() {
   return (
     <div className="sidebar">
-      <h4>All Categories</h4>
-      <ul>
-        <li><Link to="/category/vegetables">Vegetables</Link></li>
-        <li><Link to="/category/organic">Organic</Link></li>
-        <li><Link to="/category/snacks">Snacks</Link></li>
-        <li><Link to="/category/fish-meat">Fish & Meat</Link></li>
-        <li><Link to="/category/dairy">Dairy</Link></li>
-        <li><Link to="/category/bakery">Bakery</Link></li>
-      </ul>
+      <h3>All Categories</h3>
+
+      <Link to="/category/vegetables" className="sidebar-item">
+        <FaCarrot /> Vegetables
+      </Link>
+
+      <Link to="/category/fruits" className="sidebar-item">
+        <FaAppleAlt /> Fruits
+      </Link>
+
+      <Link to="/category/snacks" className="sidebar-item">
+        <FaIceCream /> Snacks
+      </Link>
+
+      <Link to="/category/fish-meat" className="sidebar-item">
+        <FaFish /> Fish & Meat
+      </Link>
+
+      <Link to="/category/bakery" className="sidebar-item">
+        <FaBreadSlice /> Bakery
+      </Link>
     </div>
   );
 }

@@ -5,12 +5,16 @@ import PromoSection from "../components/home/PromoSection";
 
 function HomePage() {
   return (
-    <div className="home-container">
-      <Sidebar />
+    <div className="homepage-full">
+      <div className="homepage-container">
+        <Sidebar />
 
-      <div className="home-content">
-        <Hero />
-        <PromoSection />
+        <div className="homepage-main">
+          <div className="main-card">
+            <Hero />
+            <PromoSection />
+          </div>
+        </div>
       </div>
     </div>
   );

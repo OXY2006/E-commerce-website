@@ -1,0 +1,29 @@
+
+body {
+  background: #f1f5f9;
+}
+
+
+.page-wrapper {
+  max-width: 1300px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.home-layout {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+
+.main-section {
+  flex: 1;
+}
+
+.main-card {
+  background: white;
+  border-radius: 25px;
+  padding: 30px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+}
