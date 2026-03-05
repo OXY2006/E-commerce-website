@@ -6,6 +6,12 @@
   gap: 80px;
 }
 
+@media (max-width: 768px) {
+  .product-details {
+    flex-direction: column;
+  }
+}
+
 .details-image {
   width: 400px;
   height: 350px;

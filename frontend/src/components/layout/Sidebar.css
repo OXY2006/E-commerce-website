@@ -8,6 +8,19 @@
   flex-direction: column;
 }
 
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+  .sidebar-item {
+    white-space: nowrap;
+  }
+}
+
 .sidebar h3 {
   margin-bottom: 20px;
 }

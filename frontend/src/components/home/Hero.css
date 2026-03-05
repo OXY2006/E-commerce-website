@@ -4,3 +4,9 @@
   object-fit: cover;
   border-radius: 20px;
 }
+
+@media (max-width: 768px) {
+  .hero img {
+    height: 180px;
+  }
+}
